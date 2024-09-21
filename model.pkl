@@ -1,0 +1,7 @@
+import joblib
+
+# Step 4: Model Training
+model.fit(X_train, y_train)
+
+# Save the trained model to a file
+joblib.dump(model, 'model.pkl')

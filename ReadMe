@@ -1,0 +1,37 @@
+Prerequisites
+Python: Make sure you have Python installed on your computer. You can download it from python.org.
+Python Libraries:
+pandas
+numpy
+matplotlib
+scikit-learn
+
+Install the necessary libraries (Open powershell as an administrator then come to this folder and paste the velow comand)
+pip install numpy pandas scikit-learn matplotlib
+
+
+
+Prepare a CSV file with the data.
+Read the CSV file using pandas.
+Train-Test Split for the data.
+Model Training, Testing, Evaluation using scikit-learn.
+Plot the results for visualization.
+
+Model Training & Evaluation:
+
+The LinearRegression model is trained using the CSV data.
+The model is then evaluated using Mean Squared Error (MSE) and R-squared (R²).
+Visualization:
+
+The actual vs predicted values are plotted to help visualize how well the model fits the data.
+Prediction on New Data:
+
+You can test the model on new data points to predict house prices for houses with 1.5, 3.0, and 4.5 rooms.
+
+Expected Ressults
+Expected Output
+The terminal will display the first 5 rows of the dataset to ensure the data is loaded properly.
+It will print the Mean Squared Error (MSE) and R-squared (R²) of the model.
+The script will display a plot showing the actual vs. predicted house prices.
+You will see the model summary including the intercept and coefficient, as well as the final equation of the line.
+Lastly, predictions for new data points (houses with 1.5, 3.0, and 4.5 rooms) will be printed.
