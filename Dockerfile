@@ -24,3 +24,5 @@ RUN pip install -r requirements.txt
 COPY . .
 
 CMD ["python", "app.py"]
+
+HEALTHCHECK --interval=30s --timeout=5s CMD curl -f http://localhost:5000/predict || exit 1
